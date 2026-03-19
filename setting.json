@@ -1,10 +1,12 @@
 {
   // editor
   "editor.fontSize": 20,
-  "editor.fontFamily": "Operator Mono Lig Light",
-  "editor.fontWeight": "600",
+  "editor.fontFamily": "DankMono Nerd Font Mono",
+  "editor.fontWeight": "500",
   "editor.fontLigatures": true,
   "editor.wordWrap": "on",
+  "custom-ui-style.font.sansSerif": "'DankMono Nerd Font Mono'",
+
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -24,7 +26,6 @@
       {
         "scope": [
           //following will be excluded from italics (VSCode has some defaults for italics)
-
           "invalid",
           "keyword.operator",
           "constant.numeric.css",
@@ -85,5 +86,14 @@
     "terminal.background": "#193549",
     "terminal.foreground": "#ffffff",
     "terminalCursor.background": "#122738"
-  }
+  },
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.enabled": false,
+  "workbench.sideBar.location": "right",
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.stickyScroll.enabled": false,
+  "breadcrumbs.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.linkedEditing": true,
+  "codesnap.transparentBackground": true
 }
